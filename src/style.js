@@ -22,7 +22,7 @@ export const ContainerItems = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
-padding-top:50px;
+padding-top:10px;
 background:#2F2F2F;
 width:800px;
 height:100vh;
@@ -30,14 +30,14 @@ justify-content:start;
 
 
 h1 {
-    font-size: 50px;
+    font-size: 35px;
     color:#FFFFFF;
-    margin-bottom:50px;
+    margin-bottom:20px;
 }
 p {
     color:#FFFFFF;
-    font-size:25px;
-    margin-bottom:80px;
+    font-size:18px;
+    margin-bottom:10px;
 }
 
 input {
@@ -73,7 +73,7 @@ button {
     font-size:20px;
     background:#E3350C;
     cursor:pointer;
-    margin-bottom:50px;
+    margin-bottom:30px;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
 }
@@ -128,7 +128,7 @@ animation: 0.5s spin linear infinite;
 
 export const Result = styled.div `
 width: 500px;
-height: 430px;
+height: 100vh;
 background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 13.5px );
