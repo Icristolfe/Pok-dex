@@ -154,6 +154,10 @@ img {
     height: 175px;
 }
 
+@media(max-width: 800px) {
+    height: 50%;
+  }
+
 
 `
 
