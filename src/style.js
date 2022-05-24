@@ -6,7 +6,7 @@ flex-direction:column;
 align-items:center;
 gap:10px;
 background: #0E0E0E;
-width:100vw;
+width:100%;
 height:100vh;
 
 form{
@@ -22,7 +22,7 @@ export const ContainerItems = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
-padding-top:100px;
+padding-top:50px;
 background:#2F2F2F;
 width:800px;
 height:100vh;
