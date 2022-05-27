@@ -12,7 +12,6 @@ height:100vh;
 form{
     display:flex;
     flex-direction:row;
-
 }
 
 
@@ -24,8 +23,8 @@ flex-direction:column;
 align-items:center;
 padding-top:10px;
 background:#2F2F2F;
-width:800px;
-height:100vh;
+width:100%;
+height:100%;
 justify-content:start;
 
 
@@ -33,6 +32,7 @@ h1 {
     font-size: 35px;
     color:#FFFFFF;
     margin-bottom:20px;
+   
 }
 p {
     color:#FFFFFF;
@@ -76,6 +76,8 @@ button {
     margin-bottom:30px;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
+
+
 }
 
 button:hover {
@@ -127,8 +129,8 @@ animation: 0.5s spin linear infinite;
 `
 
 export const Result = styled.div `
-width: 500px;
-height: 100vh;
+width: 32rem;
+height: 30rem;
 background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 13.5px );
@@ -141,6 +143,10 @@ align-items:center;
 color:#EEE;
 padding-top:25px;
 font-size:18px;
+
+@media(maxwidth:576px) {
+    
+    }
 
 h2 {
     font-size:40px;
