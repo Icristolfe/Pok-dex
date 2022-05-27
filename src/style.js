@@ -5,33 +5,10 @@ display:flex;
 flex-direction:column;
 align-items:center;
 gap:10px;
-background: #0E0E0E;
+background: #2F2F2F;
 width:100vw;
 height:100vh;
-
-form{
-    display:flex;
-    flex-direction:row;
-}
-
-
-`
-
-export const ContainerItems = styled.div`
-display:flex;
-flex-direction:column;
-align-items:center;
 padding-top:10px;
-background:#2F2F2F;
-width:100vw;
-height:100vh;
-justify-content:start;
-
-@media screen and (max-width: 770px) {
-    h1{
-        color:red;
-    }
-}
 
 h1 {
     font-size: 20px;
@@ -46,7 +23,7 @@ p {
 }
 
 input {
-    width:240px;
+    width:230px;
     height:50px;
     display:flex;
     border:none;
@@ -65,8 +42,24 @@ input:focus{
 
 
 
-button {
-    width:155px;
+
+span {
+    font-size:16px;
+}
+
+form{
+    display:flex;
+    flex-direction:row;
+}
+
+
+`
+
+
+
+export const Button = styled.button`
+
+    width:145px;
     height:50px;
     display:flex;
     flex-direction:row;
@@ -75,27 +68,26 @@ button {
     gap:30px;
     border:none;
     color:#FFFFFF;
-    font-size:20px;
+    font-size:15px;
     background:#E3350C;
     cursor:pointer;
     margin-bottom:30px;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
 
-
-}
-
-button:hover {
+&&:hover {
     opacity:0.9;
 }
 
-button:active {
+&&:active {
     opacity:0.6;
 }
 
-span {
-    font-size:18px;
+img {
+    width:30px;
+    height:30px;
 }
+
 `
 
 
@@ -133,9 +125,9 @@ animation: 0.5s spin linear infinite;
 
 `
 
-export const Result = styled.div `
-width: 440px;
-height: 340px;
+export const Result = styled.div`
+width: 400px;
+height: 375px;
 background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 13.5px );
@@ -147,7 +139,7 @@ flex-direction:column;
 align-items:center;
 color:#EEE;
 padding-top:25px;
-font-size:18px;
+font-size:16px;
 
 
 
@@ -167,7 +159,7 @@ img {
 
 `
 
-export const InfoImage = styled.div `
+export const InfoImage = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
