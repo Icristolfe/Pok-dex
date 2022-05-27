@@ -21,15 +21,15 @@ step two: click on "search" to display the result of the pokemon you searched fo
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://i.ibb.co/52ySbfP/icaroC.jpg" alt="icaroC" border="0" /><br>
+        <img src="https://i.ibb.co/52ySbfP/icaroC.jpg" alt="icaroC" border="0" width= "100px"/><br>
         <sub>
-          <b>Ícaro Cristolfe</b>
+          <b><a src="https://www.linkedin.com/in/%C3%ADcaro-cristolfe-0b8104197/" target="_blanked">Ícaro Cristolfe</a></b>
         </sub>
       </a>
     </td>
