@@ -19,9 +19,9 @@ step two: click on "search" to display the result of the pokemon you searched fo
 ```
 
 
-## 🤝 Colaboradores
+## 🤝 Contributors
 
-Pessoas que contribuíram para este projeto:
+People who contributed to this project:
 
 <table>
   <tr>
