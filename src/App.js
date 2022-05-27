@@ -5,11 +5,11 @@ import Pokebola from './assets/pokebola.png'
 
 import {
   Body,
-  ContainerItems,
   Info,
   Loading,
   Result,
-  InfoImage
+  InfoImage,
+  Button
 } from './style'
 
 function App() {
@@ -47,7 +47,6 @@ function App() {
 
   return (
     <Body>
-      <ContainerItems>
         <h1>Seja bem vindo à Pokedex!</h1>
 
         <p>Digite o nome de um pokemon ou Id para começar</p>
@@ -60,7 +59,7 @@ function App() {
             onChange={handleChange}
           />
 
-          <button type='submit'>
+          <Button type='submit'>
             {
               isLoading ? (<Loading />)
                 : (<>
@@ -68,7 +67,7 @@ function App() {
                 </>)
             }
             <img src={Pokebola} alt="pokebola" ></img>
-          </button>
+          </Button>
 
         </form>
 
@@ -92,7 +91,7 @@ function App() {
                       </span>
 
                       <span>
-                        <strong>Weight</strong>: {pokemon.weight * 10}Kg
+                        <strong>Weight</strong>: {pokemon.weight / 10}Kg
                       </span>
 
                       <span>
@@ -117,7 +116,7 @@ function App() {
         </Result>
 
 
-      </ContainerItems>
+      
     </Body>
 
   );

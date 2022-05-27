@@ -44,7 +44,7 @@ input:focus{
 
 
 span {
-    font-size:16px;
+    font-size:14px;
 }
 
 form{
@@ -127,7 +127,7 @@ animation: 0.5s spin linear infinite;
 
 export const Result = styled.div`
 width: 400px;
-height: 375px;
+height: 260px;
 background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 13.5px );
@@ -139,20 +139,18 @@ flex-direction:column;
 align-items:center;
 color:#EEE;
 padding-top:25px;
-font-size:16px;
+font-size:14px;
 
 
 
 h2 {
-    font-size:30px;
+    font-size:25px;
     font-weight:500;
 }
 
 img {   
     margin-top: 35px;
     margin-bottom: 20px;
-    width: 175px;
-    height: 175px;
 }
 
 
