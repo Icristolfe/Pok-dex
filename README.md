@@ -1,7 +1,7 @@
 # SimplePokedex
 
 
-<img src="https://i.ibb.co/rF7Gpp9/pokedexprint.jpg" alt="pokedexprint" border="0" height='300px' />
+<img src="https://i.ibb.co/rF7Gpp9/pokedexprint.jpg" alt="pokedexprint" border="0" width='300px' />
 
 > simple pokedex built with reactjs consuming pokeapi.co api.
 
@@ -26,10 +26,10 @@ People who contributed to this project:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/%C3%ADcaro-cristolfe-0b8104197/" target="_blanked">
         <img src="https://i.ibb.co/52ySbfP/icaroC.jpg" alt="icaroC" border="0" width= "100px"/><br>
         <sub>
-          <b><a src="https://www.linkedin.com/in/%C3%ADcaro-cristolfe-0b8104197/" target="_blanked">Ícaro Cristolfe</a></b>
+          <b>Ícaro Cristolfe</b>
         </sub>
       </a>
     </td>
