@@ -6,7 +6,7 @@ flex-direction:column;
 align-items:center;
 gap:10px;
 background: #0E0E0E;
-width:100%;
+width:100vw;
 height:100vh;
 
 form{
@@ -23,25 +23,30 @@ flex-direction:column;
 align-items:center;
 padding-top:10px;
 background:#2F2F2F;
-width:100%;
-height:100%;
+width:100vw;
+height:100vh;
 justify-content:start;
 
+@media screen and (max-width: 770px) {
+    h1{
+        color:red;
+    }
+}
 
 h1 {
-    font-size: 35px;
+    font-size: 20px;
     color:#FFFFFF;
-    margin-bottom:20px;
+    margin-bottom:10px;
    
 }
 p {
     color:#FFFFFF;
-    font-size:18px;
+    font-size:14px;
     margin-bottom:10px;
 }
 
 input {
-    width:300px;
+    width:240px;
     height:50px;
     display:flex;
     border:none;
@@ -61,7 +66,7 @@ input:focus{
 
 
 button {
-    width:200px;
+    width:155px;
     height:50px;
     display:flex;
     flex-direction:row;
@@ -89,7 +94,7 @@ button:active {
 }
 
 span {
-    font-size:20px;
+    font-size:18px;
 }
 `
 
@@ -100,11 +105,11 @@ flex-direction:row;
 align-items:center;
 justify-content:center;
 gap:10px;
-margin-bottom:50px;
+margin-bottom:30px;
 
 img {
-    width:100px;
-    height:100px;
+    width:85px;
+    height:85px;
 }
 `
 
@@ -129,8 +134,8 @@ animation: 0.5s spin linear infinite;
 `
 
 export const Result = styled.div `
-width: 32rem;
-height: 30rem;
+width: 440px;
+height: 340px;
 background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 13.5px );
@@ -144,18 +149,16 @@ color:#EEE;
 padding-top:25px;
 font-size:18px;
 
-@media(maxwidth:576px) {
-    
-    }
+
 
 h2 {
-    font-size:40px;
+    font-size:30px;
     font-weight:500;
 }
 
 img {   
-    margin-top: 55px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 20px;
     width: 175px;
     height: 175px;
 }
