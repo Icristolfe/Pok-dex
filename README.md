@@ -1,7 +1,7 @@
 # SimplePokedex
 
 
-<img src="https://i.ibb.co/rF7Gpp9/pokedexprint.jpg" alt="pokedexprint" border="0" />
+<img src="https://i.ibb.co/rF7Gpp9/pokedexprint.jpg" alt="pokedexprint" border="0" height='300px' />
 
 > simple pokedex built with reactjs consuming pokeapi.co api.
 
