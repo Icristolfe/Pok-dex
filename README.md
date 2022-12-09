@@ -9,7 +9,7 @@
 > simple pokedex built with reactjs consuming pokeapi.co api.
 
 ## ☕ Usando simple-pokedex
-para usar a pokedex visite o  site <a src="https://simplepokedexcristolfe.netlify.app/">SimplePokedex </a> e sigao os passos:
+para usar a pokedex visite o  site <a src="https://simplepokedexcristolfe.netlify.app/">SimplePokedex </a> e siga os passos:
 
 ```
 primeiro passo:
