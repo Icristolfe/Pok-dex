@@ -1,27 +1,23 @@
 # SimplePokedex
 
+<h1>🔰Simple Pokedex. (ReactJS, Axios ):</h1>
+<p>Pokedex com o foco em pesquisa de pokemons sendo possível realizar essa pesquisa por nome ou id do pokemon desejado onde ao realizar essa pesquisa é obtido o nome, imagem, altura, peso, tipo e id do pokemon desejado.</p>
+
 
 <img src="https://i.ibb.co/rF7Gpp9/pokedexprint.jpg" alt="pokedexprint" border="0" width='300px' />
 
 > simple pokedex built with reactjs consuming pokeapi.co api.
 
-
-
-
-## ☕ Using Simple-Pokedex
-to use pokedex visit the website <a src="https://simplepokedexcristolfe.netlify.app/">SimplePokedex </a> and follow the steps:
-
+## ☕ Usando simple-pokedex
+para usar a pokedex visite o  site <a src="https://simplepokedexcristolfe.netlify.app/">SimplePokedex </a> e sigao os passos:
 
 ```
-step one:
-enter the pokemon id or name,
-step two: click on "search" to display the result of the pokemon you searched for
+primeiro passo:
+no campo de pesquisa digite o nome ou id do pokemon que deseja encontrar,
+segundo passo: clique em "buscar" para buscar e exibir as informações do pokemon que procura
 ```
 
-
-## 🤝 Contributors
-
-People who contributed to this project:
+## Criador:
 
 <table>
   <tr>
