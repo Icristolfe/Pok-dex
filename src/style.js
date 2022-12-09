@@ -8,7 +8,7 @@ gap:10px;
 background: #2F2F2F;
 width:100vw;
 height:100vh;
-padding-top:10px;
+padding-top:35px;
 
 h1 {
     font-size: 20px;
