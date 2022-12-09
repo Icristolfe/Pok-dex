@@ -4,7 +4,7 @@
 <p>Pokedex com o foco em pesquisa de pokemons sendo possível realizar essa pesquisa por nome ou id do pokemon desejado onde ao realizar essa pesquisa é obtido o nome, imagem, altura, peso, tipo e id do pokemon desejado.</p>
 
 
-<img src="https://i.ibb.co/rF7Gpp9/pokedexprint.jpg" alt="pokedexprint" border="0" width='300px' />
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52553016678/in/dateposted-public/" title="pokedex"><img src="https://live.staticflickr.com/65535/52553016678_62d5edd58f_o.png" width="623" height="554" alt="pokedex"></a>
 
 > simple pokedex built with reactjs consuming pokeapi.co api.
 
